@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row">
+  <h1><%= @bookmark.comment %></h1>
+
+
+      <%= simple_form_for [@bookmark, @list] do |f| %>
+        <%= f.input :comment %>
+         <%= f.input :movie_id %>
+        <%= f.submit class: 'btn btn-primary' %>
+
+      <% end %>
+      <%= link_to "See the list, list_path" %>
+    </div>
+  </div>

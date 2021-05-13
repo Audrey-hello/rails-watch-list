@@ -1,0 +1,33 @@
+// Specific CSS for your home-page
+.logo {
+  background-image: url('https://images.unsplash.com/photo-1603030580676-86501e25445c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+
+}
+
+h1 {
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+  }
+
+
+  .logo2 {
+
+    background-image: url('https://images.unsplash.com/photo-1593526666682-a5bb356fc575?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+
+  }
+
+
+  .btn {
+    border-color: goldenrod;
+      &:hover {
+    color: grey;
+  }
+}
